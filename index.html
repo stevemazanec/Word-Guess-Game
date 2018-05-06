@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        Cavs Championship Hangman
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="card bg-light mb-3" id="titleCard">
+        <div class="card-body">
+            <h5 class="card-title">Hangman</h5>
+            <p class="card-text">Cavs Championship Edition</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 border-right" id="left-column">
+                <img id="currentImage" src="assets/images/Logo.jpg" alt="Logo with trophy" ;>
+            </div>
+            <div class="col-sm-6" id="right-column">
+                <br>
+                <br>
+                <p>Press Any Key to Get Started!</p>
+                <br>
+                <p>Wins: <span id="wins"></span></p>
+                <br>
+                <p>Current Word</p>
+                <br>
+                <p id="currentWord">_ _ _ _ _ _ _ _ _ _ _</p>
+                <br>
+                <p>Number of Guesses Remaining</p>
+                <br>
+                <p id="remainingGuesses"></p>
+                <br>
+                <p>Letters Already Guessed</p>
+                <br>
+                <p id="lettersGuessed"></p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!--Steps
+        1. Create heading describing game
+        2. Create two vertical boxes, one with picture and one with game
+        3. List instructions at top of game box
+        4. Display current word with correct number of spaces
+        5. Display number of guesses remaining and count down
+        6. Listen for user keystroke
+        7. Respond only if user enters a letter
+        8. When user types letter, # of guesses should decrease
+        9. Letter guessed either goes in current word, or under already guessed
+        10. If in current word, letter should go in the correct spot
+        11. If letter is already guessed, nothing happens
+        12. Once word is completed, picture should change
+        13. Once word is completed, game restarts with new word
+        14. Once word is completed, number of wins should update-->
+</body>
+
+</html>

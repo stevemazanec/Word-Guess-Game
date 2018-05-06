@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+#titleCard {
+    Width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.card-header {
+    background-color: rgb(122,38,49);
+}
+.card-body {
+    background-color: rgb(122,38,49);
+}
+.card-title {
+    font-size: 48px;
+}
+.card-title, .card-text {
+    color: rgb(255,180,1);
+}
+.container {
+    width: 50%;
+}
+.row {
+    border: 2px dashed rgb(122,38,49);
+    height: 525px;
+}
+.border-right {
+    border-right: 2px dashed rgb(122,38,49)!important;
+
+}
+#left-column {
+    color: rgb(255,180,1);
+}
+#right-column {
+    color: rgb(255,180,1);
+}
+p {
+    text-align: center;
+}
+#currentImage {
+    margin: 15px;
+}
